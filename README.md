@@ -1,6 +1,6 @@
 # Coral Staffing LP
 
-Static Vite landing page for Cloudflare Pages.
+Static Vite landing page served by a Cloudflare Worker.
 
 ## Local Development
 
@@ -22,3 +22,4 @@ npm run deploy
 ```
 
 The Cloudflare Pages output directory is `dist`.
+The Worker serves the Vite build from `dist` through Workers Static Assets.
