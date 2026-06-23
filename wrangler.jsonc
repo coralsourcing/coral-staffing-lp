@@ -1,6 +1,7 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
   "name": "coral-staffing-lp",
+  "account_id": "599cb66ab5c235bb62eb59dc77ed2f42",
   "main": "src/worker.ts",
   "compatibility_date": "2026-06-23",
   "assets": {
