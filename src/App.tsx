@@ -32,7 +32,7 @@ const apps: AppData[] = [
     iconSrc: "/hadi-icon.jpg",
     iconAlt: "Hadi Icon",
     iosAppLink: "https://apps.apple.com/us/app/hadi-spiritual-muslim-pet/id6749086324",
-    webLink: "https://hadi.botnet.com",
+    webLink: "https://hadi.coralsourcing.com",
     xLink: "https://x.com/hadicamel",
     instagramLink: "https://instagram.com/hadicamel",
     tiktokLink: "https://www.tiktok.com/@hadistudy",
@@ -61,7 +61,7 @@ function NavLogo({ size = 28 }: { size?: number }) {
         viewBox="0 0 80 80"
         xmlns="http://www.w3.org/2000/svg"
         role="img"
-        aria-label="Botnet logo"
+        aria-label="Coral logo"
       >
         <rect width="80" height="80" fill="#F5F5F5" />
         <g className="nav-logo-eye nav-logo-eye--wink">
@@ -174,7 +174,7 @@ function LegalPage({ type }: { type: "terms" | "privacy" }) {
         {isPrivacy ? (
           <>
             <p>
-              Botnet LLC respects your privacy and collects only the information needed to provide,
+              Coral respects your privacy and collects only the information needed to provide,
               improve, and support our websites, mobile applications, and related services.
             </p>
             <h2>Information We Collect</h2>
@@ -189,13 +189,13 @@ function LegalPage({ type }: { type: "terms" | "privacy" }) {
             </p>
             <h2>Contact</h2>
             <p>
-              Email <a href="mailto:privacy@botnet.com">privacy@botnet.com</a> with privacy questions.
+              Email <a href="mailto:privacy@coralsourcing.com">privacy@coralsourcing.com</a> with privacy questions.
             </p>
           </>
         ) : (
           <>
             <p>
-              By accessing or using Botnet LLC websites, mobile applications, and related services,
+              By accessing or using Coral websites, mobile applications, and related services,
               you agree to these Terms. If you do not agree, do not use the Services.
             </p>
             <h2>Acceptable Use</h2>
@@ -205,12 +205,12 @@ function LegalPage({ type }: { type: "terms" | "privacy" }) {
             </p>
             <h2>Third-Party Services</h2>
             <p>
-              The Services may link to third-party websites or services. Botnet is not responsible
+              The Services may link to third-party websites or services. Coral is not responsible
               for third-party content, policies, or practices.
             </p>
             <h2>Contact</h2>
             <p>
-              Questions about these Terms? Contact <a href="mailto:support@botnet.com">support@botnet.com</a>.
+              Questions about these Terms? Contact <a href="mailto:support@coralsourcing.com">support@coralsourcing.com</a>.
             </p>
           </>
         )}
